@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const TodoItem = ({todo, onDelete}) => {
+export const TodoItem = ({todo, onDelete,key}) => {
   return (
     <>
       <div>

@@ -11,7 +11,7 @@ export const Todos = (props) => {
       {/* here my-3 used to give padding to Todos List 
       and text-center is used to locate the text in the center */}
       <h3 className="my-3" >Todos List</h3> 
-      {props.todos.length === 0? <h3>No todos to display</h3> :
+      {props.todos && props.todos.length === 0 ? <h3>No todos to display</h3> :
       props.todos.map((todo)=> {
         return( <TodoItem todo = {todo} key={todo.sno} onDelete={props.onDelete}/> 
       

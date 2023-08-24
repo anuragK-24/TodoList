@@ -22,8 +22,7 @@ export const AddTodo = ({addTodo}) => {
             {/* this line will call AddTodo as soon as we click on add Task button  */}
             <div className="mb-3">
                     <label htmlFor="title" className="htmlForm-label">Todo Title</label>
-                    <input type="text" value={title} onChange={(e)=>setTitle(e.target.value)} className="htmlForm-control" id="title" aria-describedby="emailHelp"/>
-                    
+                    <input type="text" value={title} onChange={(e)=>setTitle(e.target.value)} className="htmlForm-control" id="title" aria-describedby="emailHelp"/>  
             </div>
         <div className="mb-3">
             <label htmlFor="desc" className="htmlForm-label">Password</label>

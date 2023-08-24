@@ -25,7 +25,7 @@ export const AddTodo = ({addTodo}) => {
                     <input type="text" value={title} onChange={(e)=>setTitle(e.target.value)} className="htmlForm-control" id="title" aria-describedby="emailHelp"/>  
             </div>
         <div className="mb-3">
-            <label htmlFor="desc" className="htmlForm-label">Password</label>
+            <label htmlFor="desc" className="htmlForm-label">Description</label>
             <input type="text" value={desc} onChange={(e)=>setDesc(e.target.value)} className="htmlForm-control" id="desc"/>
         </div>
             <button type="submit" className="btn btn-sm btn-success">Add Task</button> 

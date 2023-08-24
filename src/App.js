@@ -43,7 +43,7 @@ function App() {
     localStorage.setItem("todos", JSON.stringify(todos));
   }, [todos]);
 
-  console.log(todos);
+  
   return (
     <>
       <Header title="My Todos List" searchBar={false} />
